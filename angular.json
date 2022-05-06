@@ -27,6 +27,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
+            "codeCoverage": true,
             "main": "projects/ng2-feature-toggle/src/test.ts",
             "tsConfig": "projects/ng2-feature-toggle/tsconfig.spec.json",
             "karmaConfig": "projects/ng2-feature-toggle/karma.conf.js"
