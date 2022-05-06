@@ -27,8 +27,9 @@
     "build": "ng build",
     "ng": "ng",
     "start": "ng serve",
-    "test:headless": "ng test --watch=false --browsers=ChromeHeadless",
+    "test:ci-coverage": "ng test --watch=false --browsers=ChromeHeadless && cat ./coverage/ng2-feature-toggle/lcov.info | coveralls",
     "test:watch": "ng test",
+    "test": "ng test --watch=false --browsers=ChromeHeadless",
     "watch": "ng build --watch --configuration development"
   },
   "dependencies": {
@@ -50,6 +51,7 @@
     "@angular/compiler-cli": "~13.3.0",
     "@types/jasmine": "~3.10.0",
     "@types/node": "^12.11.1",
+    "coveralls": "^3.1.1",
     "jasmine-core": "~4.0.0",
     "karma": "~6.3.0",
     "karma-chrome-launcher": "~3.1.0",

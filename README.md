@@ -3,6 +3,7 @@
 <div lign="center">
 
 [![Build Status](https://app.travis-ci.com/Sgryts/ng2-feature-toggle.svg?branch=main)](https://app.travis-ci.com/Sgryts/ng2-feature-toggle)
+[![Coverage Status](https://coveralls.io/repos/github/Sgryts/ng2-feature-toggle/badge.svg?branch=main)](https://coveralls.io/github/Sgryts/ng2-feature-toggle?branch=main)
 [![CodeFactor](https://www.codefactor.io/repository/github/sgryts/ng2-feature-toggle/badge)](https://www.codefactor.io/repository/github/sgryts/ng2-feature-toggle)
 [![npm package](https://img.shields.io/npm/v/ng2-feature-toggle.svg?style=flat-square)](https://www.npmjs.com/package/ng2-feature-toggle)
 [![NPM downloads](http://img.shields.io/npm/dm/ng2-feature-toggle.svg?style=flat-square)](https://npmjs.org/package/ng2-feature-toggle)

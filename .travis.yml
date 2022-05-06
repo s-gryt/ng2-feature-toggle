@@ -9,8 +9,4 @@ branches:
 before_script:
   - npm install
 script:
-  - npm run test:headless
-notifications:
-  email:
-    on_failure: change
-    on_success: change
+  - npm run test:ci-coverage
