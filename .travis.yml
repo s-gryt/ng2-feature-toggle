@@ -5,7 +5,7 @@ dist: xenial
 sudo: required
 addons:
   sonarcloud:
-    organization: "Sgryts"
+    organization: "sgryts"
 branches:
   only:
     - main
