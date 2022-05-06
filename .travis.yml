@@ -3,6 +3,9 @@ node_js:
   - 16
 dist: trusty
 sudo: required
+addons:
+  sonarcloud:
+    organization: "Sgryts"
 branches:
   only:
     - main
@@ -10,3 +13,4 @@ before_script:
   - npm install
 script:
   - npm run test:ci-coverage
+  - sonar-scanner
