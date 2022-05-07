@@ -25,13 +25,14 @@
   "scripts": {
     "build:prod": "ng build --prod",
     "build": "ng build",
+    "lint": "ng lint",
+    "lint:fix": "ng lint --fix",
     "ng": "ng",
     "start": "ng serve",
     "test:ci-coverage": "ng test --watch=false --browsers=ChromeHeadless && cat ./coverage/ng2-feature-toggle/lcov.info | coveralls",
     "test:watch": "ng test",
     "test": "ng test --watch=false --browsers=ChromeHeadless",
-    "watch": "ng build --watch --configuration development",
-    "lint": "ng lint"
+    "watch": "ng build --watch --configuration development"
   },
   "dependencies": {
     "@angular/animations": "~13.3.0",
