@@ -8,6 +8,7 @@
 [![CodeFactor](https://www.codefactor.io/repository/github/sgryts/ng2-feature-toggle/badge)](https://www.codefactor.io/repository/github/sgryts/ng2-feature-toggle)
 [![npm package](https://img.shields.io/npm/v/ng2-feature-toggle.svg?style=flat-square)](https://www.npmjs.com/package/ng2-feature-toggle)
 [![NPM downloads](http://img.shields.io/npm/dm/ng2-feature-toggle.svg?style=flat-square)](https://npmjs.org/package/ng2-feature-toggle)
+[![npm bundle size (minified + gzip)](https://img.shields.io/bundlephobia/minzip/ng2-feature-toggle.svg)](https://bundlephobia.com/result?p=ng2-feature-toggle)
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://github.com/Sgryts/ng2-feature-toggle/blob/main/LICENSE)
 
 </div>
