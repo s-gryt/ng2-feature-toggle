@@ -1,5 +1,10 @@
 {
   "root": true,
+  "parser": "@typescript-eslint/parser",
+  "plugins": [
+    "@typescript-eslint",
+    "prettier"
+  ],
   "ignorePatterns": [
     "projects/**/*"
   ],
@@ -15,8 +20,12 @@
         "createDefaultProgram": true
       },
       "extends": [
+        "eslint:recommended",
         "plugin:@angular-eslint/recommended",
-        "plugin:@angular-eslint/template/process-inline-templates"
+        "plugin:@angular-eslint/template/process-inline-templates",
+        "plugin:@typescript-eslint/eslint-recommended",
+        "plugin:@typescript-eslint/recommended",
+        "prettier"
       ],
       "rules": {
         "@angular-eslint/directive-selector": [
@@ -33,6 +42,21 @@
             "type": "element",
             "prefix": "lib",
             "style": "kebab-case"
+          }
+        ],
+        "prettier/prettier": [
+          "error",
+          {
+            "arrowParens": "always",
+            "bracketSameLine": true,
+            "bracketSpacing": true,
+            "printWidth": 120,
+            "semi": true,
+            "singleQuote": true,
+            "tabWidth": 2,
+            "trailingComma": "all",
+            "endOfLine": "auto",
+            "useTabs": false
           }
         ]
       }
