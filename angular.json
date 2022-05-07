@@ -32,9 +32,21 @@
             "tsConfig": "projects/ng2-feature-toggle/tsconfig.spec.json",
             "karmaConfig": "projects/ng2-feature-toggle/karma.conf.js"
           }
+        },
+        "lint": {
+          "builder": "@angular-eslint/builder:lint",
+          "options": {
+            "lintFilePatterns": [
+              "projects/ng2-feature-toggle/**/*.ts",
+              "projects/ng2-feature-toggle/**/*.html"
+            ]
+          }
         }
       }
     }
   },
-  "defaultProject": "ng2-feature-toggle"
+  "defaultProject": "ng2-feature-toggle",
+  "cli": {
+    "defaultCollection": "@angular-eslint/schematics"
+  }
 }
