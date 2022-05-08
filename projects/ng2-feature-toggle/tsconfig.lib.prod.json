@@ -6,6 +6,6 @@
   },
   "angularCompilerOptions": {
     "compilationMode": "partial",
-    "sourceMap": true,
+    "sourceMap": false,
   }
 }
