@@ -1,4 +1,4 @@
-import { features } from '../mock/features.mock';
+import { features } from '../mock';
 import { Mode } from '../shared';
 import { Feature } from './feature.model';
 
