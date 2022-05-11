@@ -5,6 +5,15 @@
   "license": "MIT",
   "author": "Sergii Grytsaienko <sergiigrytsaienko@gmail.com>",
   "private": false,
+  "keywords": [
+    "angular",
+    "feature-toggle",
+    "feature",
+    "flag",
+    "ng",
+    "ng2-feature-toggle",
+    "toggle"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Sgryts/ng2-feature-toggle.git"
