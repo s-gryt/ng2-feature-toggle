@@ -1,3 +1,2 @@
-import { Mode } from '../shared';
-
-export type Features = { [key in Mode]: { [key: string]: string } };
+import { Feature } from './feature.model';
+export type Features = { [name: string]: Feature };

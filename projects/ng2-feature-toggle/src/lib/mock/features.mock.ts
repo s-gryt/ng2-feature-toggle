@@ -1,19 +1,13 @@
-import { Features } from '../models';
+import { Feature, Features } from '../models';
 import { Mode } from '../shared';
 
-export const features: Features = {
-  [Mode.Disable]: {
-    feature2: 'this is a feature 2',
-    feature5: 'this is a feature 5',
-  },
-  [Mode.Experiment]: {
-    feature1: 'this is a feature 1',
-    feature2: 'this is a feature 2',
-  },
+export const disalbeFeatureName = `${Mode.Disable}Feature`;
+export const experimentFeatureName = `${Mode.Experiment}Feature`;
+export const releaseFeatureName = `${Mode.Relase}Feature`;
+export const invalidFeatureName = 'invalidFeatureName';
 
-  [Mode.Relase]: {
-    feature3: 'this is a feature 3',
-    feature4: 'this is a feature 4',
-    feature5: 'this is a feature 5',
-  },
-} as const;
+export const features: Features = {
+  [disalbeFeatureName]: new Feature(Mode.Relase, disalbeFeatureName, '', ''),
+  [experimentFeatureName]: new Feature(Mode.Experiment, experimentFeatureName, '', ''),
+  [releaseFeatureName]: new Feature(Mode.Disable, releaseFeatureName, '', ''),
+};
