@@ -12,6 +12,9 @@ branches:
 before_script:
   - npm install
 script:
+  - npm run snyk:test
   - npm run lint
   - npm run test:ci-coverage
   - sonar-scanner
+after_success:
+  - npm run snyk:monitor

@@ -29,12 +29,14 @@
     "lint": "ng lint",
     "ng": "ng",
     "prepare": "husky install",
+    "snyk:monitor": "./node_modules/.bin/snyk monitor",
+    "snyk:test": "./node_modules/.bin/snyk test",
     "start": "ng serve",
     "test:ci-coverage": "ng test --watch=false --browsers=ChromeHeadless && cat ./coverage/ng2-feature-toggle/lcov.info | coveralls",
     "test:coverage": "ng test --watch=false --browsers=ChromeHeadless && cat ./coverage/ng2-feature-toggle/lcov.info",
+    "test:debug-headless": "ng test --browsers=ChromeHeadless",
     "test:debug": "ng test",
     "test": "ng test --watch=false --browsers=ChromeHeadless",
-    "test:debug-headless": "ng test --browsers=ChromeHeadless",
     "watch": "ng build --watch --configuration development"
   },
   "dependencies": {
@@ -80,6 +82,7 @@
     "ng-packagr": "^13.0.0",
     "prettier": "^2.6.2",
     "puppeteer": "^13.7.0",
+    "snyk": "^1.946.0",
     "typescript": "~4.6.2"
   },
   "bundlesize": [
