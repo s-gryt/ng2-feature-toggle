@@ -1,22 +1,13 @@
 {
   "root": true,
   "parser": "@typescript-eslint/parser",
-  "plugins": [
-    "@typescript-eslint",
-    "prettier"
-  ],
-  "ignorePatterns": [
-    "projects/**/*"
-  ],
+  "plugins": ["@typescript-eslint", "prettier"],
+  "ignorePatterns": ["projects/**/*"],
   "overrides": [
     {
-      "files": [
-        "*.ts"
-      ],
+      "files": ["*.ts"],
       "parserOptions": {
-        "project": [
-          "tsconfig.json"
-        ],
+        "project": ["tsconfig.json"],
         "createDefaultProgram": true
       },
       "extends": [
@@ -32,7 +23,7 @@
           "error",
           {
             "type": "attribute",
-            "prefix": "lib",
+            "prefix": "featureToggle",
             "style": "camelCase"
           }
         ],
@@ -40,7 +31,7 @@
           "error",
           {
             "type": "element",
-            "prefix": "lib",
+            "prefix": "feature-toggle",
             "style": "kebab-case"
           }
         ],
@@ -62,12 +53,8 @@
       }
     },
     {
-      "files": [
-        "*.html"
-      ],
-      "extends": [
-        "plugin:@angular-eslint/template/recommended"
-      ],
+      "files": ["*.html"],
+      "extends": ["plugin:@angular-eslint/template/recommended"],
       "rules": {}
     }
   ]
