@@ -1,5 +1,5 @@
 import { Mode } from '../shared';
 
-export const querySearchParam = `featureToggle`;
+export const queryParam = `featureToggle`;
 
-export const searchQuery = `?${querySearchParam}=${Mode.Experiment}Feature,${Mode.Disable}Feature,${Mode.Relase}Feature`;
+export const searchQuery = `?${queryParam}=${Mode.Experiment}Feature,${Mode.Disable}Feature,${Mode.Relase}Feature`;
