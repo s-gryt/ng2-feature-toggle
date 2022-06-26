@@ -34,8 +34,8 @@
     "start": "ng serve",
     "test:ci-coverage": "ng test --watch=false --browsers=ChromeHeadless && cat ./coverage/ng2-feature-toggle/lcov.info | coveralls",
     "test:coverage": "ng test --watch=false --browsers=ChromeHeadless && cat ./coverage/ng2-feature-toggle/lcov.info",
-    "test:debug-headless": "ng test --browsers=ChromeHeadless",
-    "test:debug": "ng test",
+    "test:watch-headless": "ng test --browsers=ChromeHeadless",
+    "test:watch": "ng test",
     "test": "ng test --watch=false --browsers=ChromeHeadless",
     "watch": "ng build --watch --configuration development"
   },
