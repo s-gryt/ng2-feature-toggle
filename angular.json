@@ -45,8 +45,8 @@
       }
     }
   },
-  "defaultProject": "ng2-feature-toggle",
   "cli": {
-    "defaultCollection": "@angular-eslint/schematics"
+    "schematicCollections": ["@angular-eslint/schematics"],
+    "analytics": false
   }
 }

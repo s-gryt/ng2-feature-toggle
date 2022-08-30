@@ -7,12 +7,8 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "paths": {
-      "ng2-feature-toggle": [
-        "dist/ng2-feature-toggle",
-      ],
-      "ng2-feature-toggle/*": [
-        "dist/ng2-feature-toggle/*",
-      ]
+      "ng2-feature-toggle": ["dist/ng2-feature-toggle"],
+      "ng2-feature-toggle/*": ["dist/ng2-feature-toggle/*"]
     },
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
@@ -24,12 +20,9 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
-    "target": "es2017",
+    "target": "es2020",
     "module": "es2020",
-    "lib": [
-      "es2020",
-      "dom"
-    ]
+    "lib": ["es2020", "dom"]
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
