@@ -23,7 +23,7 @@
     "url": "https://github.com/Sgryts/ng2-feature-toggle/issues"
   },
   "scripts": {
-    "build:prod": "ng build --prod",
+    "build:prod": "ng build --configuration production",
     "build": "ng build",
     "lint:fix": "ng lint --fix",
     "lint": "ng lint",
