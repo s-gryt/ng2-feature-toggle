@@ -7,7 +7,7 @@ export const releaseFeatureName = `${Mode.Relase}Feature`;
 export const invalidFeatureName = 'invalidFeatureName';
 
 export const features: Features = {
-  [disalbeFeatureName]: new Feature(Mode.Relase, disalbeFeatureName, '', ''),
+  [disalbeFeatureName]: new Feature(Mode.Disable, disalbeFeatureName, '', ''),
   [experimentFeatureName]: new Feature(Mode.Experiment, experimentFeatureName, '', ''),
-  [releaseFeatureName]: new Feature(Mode.Disable, releaseFeatureName, '', ''),
+  [releaseFeatureName]: new Feature(Mode.Relase, releaseFeatureName, '', ''),
 };
