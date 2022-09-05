@@ -10,6 +10,7 @@ export * from './directives';
 export * from './feature-toggle';
 export * from './query-params';
 export * from './models';
+export { Mode } from './shared';
 export { FEATURE_TOGGLE } from './providers/feature-toggle.provider';
 
 @NgModule({
