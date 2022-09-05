@@ -27,6 +27,7 @@
     "build": "ng build",
     "lint:fix": "ng lint --fix",
     "lint": "ng lint",
+    "lint-staged": "./node_modules/.bin/lint-staged",
     "ng": "ng",
     "prepare": "husky install",
     "snyk:monitor": "./node_modules/.bin/snyk monitor",
