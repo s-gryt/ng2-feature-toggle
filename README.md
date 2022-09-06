@@ -1,5 +1,7 @@
 # ng2-feature-toggle
 
+## Angular Feature Toggle
+
 <div lign="center">
 
 [![Build Status](https://app.travis-ci.com/Sgryts/ng2-feature-toggle.svg?branch=main)](https://app.travis-ci.com/Sgryts/ng2-feature-toggle)
@@ -12,3 +14,18 @@
 [![GitHub license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](https://github.com/Sgryts/ng2-feature-toggle/blob/main/LICENSE)
 
 </div>
+
+This Feature Toggle can be used in a browser or for Server-Side Rendering;
+
+- [Demo](#demo)
+- [Install](#install)
+
+## Demo
+
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/edit/angular-ivy-zjblry)
+
+## Install
+
+```shell
+npm install ng2-feature-toggle
+```
